@@ -1,0 +1,236 @@
+/*Landing page css*/
+
+.header-color {
+  background: #5D4157;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #A8CABA, #5D4157);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #A8CABA, #5D4157); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.header-color a {
+  font-size: 23px;
+  font-family: 'Contrail One', cursive;
+  text-shadow: -1px 1px black;
+  transition: 0.7s ease;
+}
+
+.header-color a:hover {
+  font-size: 28px;
+}
+
+#title-style {
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+  font-family: 'Contrail One', cursive;
+  text-shadow: -1px 1px black;
+  transition: 0.7s ease;
+}
+
+#title-style:hover {
+  font-size: 28px;
+}
+
+.material-icons {
+  text-shadow: 1px 1px black;
+  transition: 0.7s ease;
+}
+
+.material-icons:hover {
+  color: black;
+}
+
+.landing-grid {
+  background: #5D4157;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #A8CABA, #5D4157);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #A8CABA, #5D4157); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 4%;
+  width: 300px;
+  height: 300px;
+}
+
+.guitar-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  opacity: .7;
+  border-radius: 50%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.7s ease;
+  border-radius: 50%;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.matt {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+
+.banner-text {
+  background-color: black;
+  opacity: .7;
+  width: 75%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.banner-text h1 {
+  font-family: 'Contrail One', cursive;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  word-spacing: 5px;
+  text-shadow: -2px 2px #5d4157;
+}
+
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  font-size: 20px;
+  padding: 1em;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i {
+  color: white;
+  font-size: 5em;
+  padding: 8px;
+  transition: 0.7s ease;
+  text-shadow: -2px 2px #5d4157;
+}
+
+.social-links i:hover {
+  font-size: 6em;
+}
+
+/*Projects page css*/
+
+.cardTitle-img {
+  margin-top: 10%;
+}
+
+.category-tabs {
+  background: #5D4157;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #A8CABA, #5D4157);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #A8CABA, #5D4157); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+
+.projects-grid {
+  display: flex;
+}
+
+/*Contact page css*/
+
+.contact-body {
+  margin: auto;
+  background: #5D4157;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #A8CABA, #5D4157);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #A8CABA, #5D4157); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 550px;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 55px;
+  padding-right: 5rem;
+}
+
+/*Resume page css*/
+
+.resume-page {
+  background: #5D4157;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #A8CABA, #5D4157);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #A8CABA, #5D4157); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.resume-left-col {
+  color: black;
+}
+
+.resume-right-col {
+  background: #27221F;
+  border-radius: 1.5%;
+  color: white;
+  padding: 2em;
+  opacity: .8;
+}
+
+.resume-pic {
+  height: 300px;
+  border-radius: 7%;
+}
