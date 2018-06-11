@@ -8,13 +8,13 @@ class Contact extends Component {
                 <Grid className="contact-grid">
                     <Cell col={6}>
                         <h2>Matthew Plein</h2>
-                        <img
+                        {/* <img
                             src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
                             alt="avatar"
                             style={{height: '250px'}}
-                        />
+                        /> */}
                         <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
-                            hope you enjoyed viewing my profile. feel free to contact me with any questions or if you're looking for a guitarist in your band
+                            I hope you enjoyed viewing my profile. More updates are coming soon! Feel free to contact me with any questions or if you're looking for a guitarist in your band
                         </p>
                     </Cell>
                     <Cell col={6}>

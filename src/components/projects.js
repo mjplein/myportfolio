@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button, CardMenu, IconButton } from 'react-mdl';
+import { Tabs, Tab, Grid, Cell, Card, CardTitle, CardText, CardActions, Button } from 'react-mdl';
 
 class Projects extends Component {
     constructor(props) {
@@ -12,47 +12,49 @@ class Projects extends Component {
             return(
                 <div className="projects-grid">
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle className='cardTitle-img' style={{color: '#fff', height: '176px', background: 'url(http://www.hoook.me/static/media/logoCrop2.3213fd2a.png) center / cover'}}></CardTitle>
-                        <CardText>
+                        <CardTitle className='cardTitle-img' style={{color: '#fff', height: '270px', background: 'url(https://wmira.gallerycdn.vsassets.io/extensions/wmira/react-playground-vscode/0.0.11/1494599205180/Microsoft.VisualStudio.Services.Icons.Default) center / cover'}}></CardTitle>
+                        <CardText style={{ height: '60px' }}>
                             a social, media-based application that allows users to put others "on the hook" to check out chosen media 
                         </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>Live Demo</Button>
+                            <a href="https://github.com/Team-Chocolate-Chip-Cookies/Hoooked" rel="noopener noreferrer" target="_blank">
+                                <Button colored>GitHub</Button>
+                            </a>
+                            <a href="http://www.hoook.me" rel="noopener noreferrer" target="_blank">
+                                <Button colored>Live Demo</Button>
+                            </a>
                         </CardActions>
-                        <CardMenu style={{color: '#fff'}}>
-                            <IconButton name="share" style={{color: 'black'}} />
-                        </CardMenu>
                     </Card>
                     <Card shadow={5} style={{minWidth: '450', margin: 'auto'}}>
-                        <CardTitle className='cardTitle-img' style={{color: '#fff', height: '176px', background: 'url(http://www.hoook.me/static/media/logoCrop2.3213fd2a.png) center / cover'}}></CardTitle>
-                        <CardText>
-                            a social, media-based application that allows users to put others "on the hook" to check out chosen media 
+                        <CardTitle className='cardTitle-img' style={{color: '#fff', height: '270px', background: 'url(https://wmira.gallerycdn.vsassets.io/extensions/wmira/react-playground-vscode/0.0.11/1494599205180/Microsoft.VisualStudio.Services.Icons.Default) center / cover'}}></CardTitle>
+                        <CardText style={{ height: '60px' }}>
+                            a simple React-built memory game 
                         </CardText>
                         <CardActions border>
-                            <Button colored>GitHub</Button>
-                            <Button colored>Live Demo</Button>
+                            <a href="https://github.com/mjplein/reactClickyGame" rel="noopener noreferrer" target="_blank">
+                                <Button colored>GitHub</Button>
+                            </a>
+                            <a href="" rel="noopener noreferrer" target="_blank">
+                                <Button colored>Live Demo</Button>
+                            </a>
                         </CardActions>
-                        <CardMenu style={{color: '#fff'}}>
-                            <IconButton name="share" style={{color: 'black'}} />
-                        </CardMenu>
                     </Card>
                 </div>
             )
         }
         else if(this.state.activeTab === 1){
             return(
-                <div><h1>This is MySQL</h1></div>
+                <div><h1>This is MySQL</h1><p>projects are coming soon!</p></div>
             )
         }
         else if(this.state.activeTab === 2){
             return(
-                <div><h1>This is JavaScript</h1></div>
+                <div><h1>This is JavaScript</h1><p>projects are coming soon!</p></div>
             )
         }
         else if(this.state.activeTab === 3){
             return(
-                <div><h1>This is NodeJS</h1></div>
+                <div><h1>This is NodeJS</h1><p>projects are coming soon!</p></div>
             )
         }
     }
