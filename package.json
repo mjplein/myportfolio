@@ -2,7 +2,7 @@
   "name": "myreactportfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mjplein.github.io/myportfolio/",
+  "homepage": "https://mjplein.github.io/myportfolio",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^16.4.0",
