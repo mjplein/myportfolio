@@ -6,11 +6,16 @@ class Education extends Component {
         return(
             <Grid>
                 <Cell col={4}>
-                    <p>{this.props.startYear} - {this.props.endYear}</p>
+                    <img
+                        className="school-icon"
+                        alt="School Icon"
+                        src={this.props.schoolURL}
+                    />
                 </Cell>
                 <Cell col={8}>
-                    <h4 style={{ marginTop: '0px'}}>{this.props.schoolName}</h4>
-                    <p>{this.props.schoolDescription}</p>
+                    <h5 style={{ marginTop: '0px'}}>{this.props.schoolName}</h5>
+                    <p>{this.props.schoolDescription1}</p>
+                    <p>{this.props.schoolDescription2}</p>
                 </Cell>
             </Grid>
         )

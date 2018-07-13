@@ -4,7 +4,10 @@
   "private": true,
   "homepage": "https://mjplein.github.io/myportfolio",
   "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
     "gh-pages": "^1.2.0",
+    "nodemailer": "^4.6.7",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-mdl": "^1.11.0",

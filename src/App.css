@@ -1,4 +1,4 @@
-/*Landing page css*/
+/*Navbar css*/
 
 .header-color {
   background: #5D4157;  /* fallback for old browsers */
@@ -7,6 +7,8 @@
 }
 
 .header-color a {
+  color: black !important;
+  opacity: 0.5;
   font-size: 23px;
   font-family: 'Contrail One', cursive;
   text-shadow: -1px 1px black;
@@ -14,30 +16,33 @@
 }
 
 .header-color a:hover {
-  font-size: 28px;
+  font-size: 26px;
 }
 
 #title-style {
   text-decoration: none;
-  color: white;
+  color: black;
+  opacity: 0.5;
   font-size: 23px;
   font-family: 'Contrail One', cursive;
-  text-shadow: -1px 1px black;
   transition: 0.7s ease;
 }
 
 #title-style:hover {
-  font-size: 28px;
+  font-size: 26px;
 }
 
 .material-icons {
-  text-shadow: 1px 1px black;
+  color: black;
+  opacity: 0.5;
   transition: 0.7s ease;
 }
 
 .material-icons:hover {
-  color: black;
+  font-size: 28px;
 }
+
+/*Landing page css*/
 
 .landing-grid {
   background: #5D4157;  /* fallback for old browsers */
@@ -68,6 +73,7 @@
   height: auto;
   opacity: .7;
   border-radius: 50%;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 }
 
 .overlay {
@@ -81,6 +87,14 @@
   opacity: 0;
   transition: 0.7s ease;
   border-radius: 50%;
+}
+
+.overlay h3 {
+  color: black;
+  font-family: 'Contrail One', cursive;
+  font-weight: bold;
+  text-shadow: 1px 1px white;
+  opacity: .7;
 }
 
 .container:hover .overlay {
@@ -97,6 +111,7 @@
   left: 50%;
   transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
 }
 
 
@@ -137,11 +152,10 @@
 }
 
 .social-links i {
-  color: white;
+  color: cornflowerblue;
   font-size: 5em;
   padding: 8px;
   transition: 0.7s ease;
-  text-shadow: -2px 2px #5d4157;
 }
 
 .social-links i:hover {
@@ -151,63 +165,19 @@
 /*Projects page css*/
 
 .cardTitle-img {
-  margin-top: 10%;
+  color: black;
 }
 
-.category-tabs {
+.projects {
   background: #5D4157;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #A8CABA, #5D4157);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #A8CABA, #5D4157); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  position: fixed;
-  width: 100%;
-  height: 100%;
 }
 
 .projects-grid {
+  padding-top: 3em;
+  padding-bottom: 3em;
   display: flex;
-}
-
-/*Contact page css*/
-
-.contact-body {
-  margin: auto;
-  background: #5D4157;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #A8CABA, #5D4157);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #A8CABA, #5D4157); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  padding-top: 2em;
-}
-
-.contact-grid {
-  text-align: center;
-  justify-content: center;
-  width: 80%;
-  height: 550px;
-  background: white;
-  color: black;
-  margin-bottom: 20px;
-}
-
-.contact-grid h2 {
-  font-family: 'Anton', sans-serif;
-}
-
-.contact-grid p {
-  font-weight: bold;
-}
-
-.contact-grid hr {
-  border-top: 5px dotted black;
-  width: 50%;
-  margin: auto;
-}
-
-.contact-list i {
-  font-size: 55px;
-  padding-right: 5rem;
 }
 
 /*Resume page css*/
@@ -216,21 +186,79 @@
   background: #5D4157;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #A8CABA, #5D4157);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #A8CABA, #5D4157); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-top: 2em;
 }
 
-.resume-left-col {
+.resume-page a {
   color: black;
 }
 
+.resume-page p {
+  font-size: medium;
+}
+
+.resume-left-col h3 {
+  font-family: 'Cinzel', serif;
+}
+
+.resume-left-col h5 {
+  color: #A8CABA;
+  font-family: 'Cinzel', serif;
+}
+
 .resume-right-col {
-  background: #27221F;
-  border-radius: 1.5%;
-  color: white;
+  background-color: rgb(88, 80, 94);
+  opacity: .7;
+  border-radius: 10px;
   padding: 2em;
-  opacity: .8;
+  border-style: solid;
+  border-width: 3px;
+}
+
+.resume-right-col h3 {
+  color: black;
+  font-family: 'Cinzel', serif;
+}
+
+.resume-right-col h5 {
+  color: #A8CABA;
+  font-family: 'Cinzel', serif;
 }
 
 .resume-pic {
-  height: 300px;
-  border-radius: 7%;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 0 15px 20px rgba(0, 0, 0, 0.3);
+}
+
+.project-img {
+  width:150px;
+  height:100px;
+}
+
+.school-icon {
+  display: block;
+  max-width:150px;
+  max-height:100px;
+  width: auto;
+  height: auto;
+}
+
+/*about me page css*/
+
+.aboutMe-page {
+  background: #5D4157;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #A8CABA, #5D4157);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #A8CABA, #5D4157); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.teresa-pic {
+  width: 410px;
+  height: 340px;
+}
+
+.levi-pic {
+  float: right;
+  width: 410px;
+  height: 340px;  
 }

@@ -6,20 +6,11 @@ class Contact extends Component {
         return(
             <div className="contact-body">
                 <Grid className="contact-grid">
-                    <Cell col={6}>
-                        <h2>Matthew Plein</h2>
-                        {/* <img
-                            src="https://cdn2.iconfinder.com/data/icons/avatar-2/512/Fred_man-512.png"
-                            alt="avatar"
-                            style={{height: '250px'}}
-                        /> */}
-                        <p style={{ width: '75%', margin: 'auto', paddingTop: '1em'}}>
-                            I hope you enjoyed viewing my profile. More updates are coming soon! Feel free to contact me with any questions or if you're looking for a guitarist in your band
-                        </p>
-                    </Cell>
-                    <Cell col={6}>
+                    <Cell col={12}>
                         <h2>Contact Me</h2>
                         <hr/>
+                    </Cell>
+                    <Cell col={4}>
                         <div className="contact-list">
                             <List>
                                 <ListItem>
@@ -42,6 +33,8 @@ class Contact extends Component {
                                 </ListItem>
                             </List>
                         </div>
+                    </Cell>
+                    <Cell col={8}>
                     </Cell>
                 </Grid>
             </div>
