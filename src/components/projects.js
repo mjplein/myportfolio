@@ -66,7 +66,7 @@ class Projects extends Component {
                                     <a href="https://github.com/mjplein/BroBroker" rel="noopener noreferrer" target="_blank">
                                         <Button colored>GitHub</Button>
                                     </a>
-                                    <a href="https://brobroker.herokuapp.com/" rel="noopener noreferrer" target="_blank">
+                                    <a href="" rel="noopener noreferrer" target="_blank">
                                         <Button colored>Live Demo</Button>
                                     </a>
                                 </CardActions>
